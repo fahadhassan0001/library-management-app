@@ -4,6 +4,7 @@ import Login from './components/Login';
 import StudentDashboard from './components/StudentDashboard';
 import LibrarianDashboard from './components/LibrarianDashboard';
 import { useEffect, useState } from 'react';
+import './App.css';
 
 function App() {
   const { supabase } = useSupabase();
